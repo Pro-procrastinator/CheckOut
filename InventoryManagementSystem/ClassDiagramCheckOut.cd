@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InventoryManagementSystem.categories">
+    <Position X="3.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAFiGiABABAAAkKAAABCAAAAAgEAAABABgAAAAg=</HashCode>
+      <FileName>categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.viewSalesInvoices">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAEAACAAABACARKCBAAGBAAAACAAIAAAACAIAAA=</HashCode>
+      <FileName>viewSalesInvoices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.Users">
+    <Position X="10" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kBACAAQgFCCiAhAACgawEABSBAAMAgkAIAwABhAAAAg=</HashCode>
+      <FileName>Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.update">
+    <Position X="36.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAASAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAJA=</HashCode>
+      <FileName>update.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.supplier">
+    <Position X="16.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADACAAIgEKBgABAAAgKCoABaEQFAQgMAkAAgpgASAAg=</HashCode>
+      <FileName>supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.stock">
+    <Position X="21.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAggCAEAIAACgKiAABCCAAAAIEAAAACBAABAAg=</HashCode>
+      <FileName>stock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.settings">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACQEABAIAADAAAADMAwEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.sample2">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAEwASgAAAAAAAKAAABSAAAAAAEAgCAABQCogAg=</HashCode>
+      <FileName>sample2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.sample">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAACAAAACAAAQAAAAAAIAAQFAAAA=</HashCode>
+      <FileName>sample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.salesReport">
+    <Position X="34.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAEAAQKAAAACAAEAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>salesReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.sales">
+    <Position X="23.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAyAIAggyggABAApAOCAABGGAAAAIEA4BAQBQAgCTg=</HashCode>
+      <FileName>sales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.saleReturn">
+    <Position X="5.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECACBIEgSAAIBAACBKChAAGAEAAAKIAIAQAATAIAAA=</HashCode>
+      <FileName>saleReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.retrieval">
+    <Position X="33" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAggAoAAAQgAAAEAKSQQABAgAgCIAAAAQYEAgAQAAA=</HashCode>
+      <FileName>retrieval.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.purchaseInvoiceDetails">
+    <Position X="14.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgSAgABAARAKCAAAGCAAAAIAAIEAAIgAoBCA=</HashCode>
+      <FileName>purchaseInvoiceDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.purchaseInvoice">
+    <Position X="19" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACgQSgwyIgARAEFgKCEQRGCAAASKkABEAAB6IwACg=</HashCode>
+      <FileName>purchaseInvoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.Program">
+    <Position X="36.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.products">
+    <Position X="7.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAACABAggSAAAhAACAKgkAJGCAAAQAMAAAABhggAAAg=</HashCode>
+      <FileName>products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.productPricing">
+    <Position X="12.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAgAggCAgAxAADgKDAABCCAAEAAMAgIAABgAgAAg=</HashCode>
+      <FileName>productPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.MDI">
+    <Position X="34.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQCAAAAAACAAAAgAAAGAAQACAAgAAAAAAAEAAIAAACA=</HashCode>
+      <FileName>MDI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.mainclass">
+    <Position X="32.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAIAAAIAgACQQAAAAAAAAAAAIAAAAAAIAA=</HashCode>
+      <FileName>mainclass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.login">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAABAAABCAkAACYAQEAAAAAAAAABAAEIA=</HashCode>
+      <FileName>login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.Loading">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAIAAAAACAAAACAAAAIAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Loading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.insertion">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACAAAAAAgIQAAQIACAIEIAACAAAAACABggAAAAA=</HashCode>
+      <FileName>insertion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.HomeScreen">
+    <Position X="30.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAggACAAAAAgQCCCAAACIIgYQAAAAAAUQDBAACA=</HashCode>
+      <FileName>HomeScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementSystem.delete">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>delete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

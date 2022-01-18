@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckOut", "InventoryManagementSystem\CheckOut.csproj", "{7B1F3369-574F-4122-AD73-FE402D04E014}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CheckOutSetup", "CheckOutSetup\CheckOutSetup.vdproj", "{89A3C40F-3F64-46B4-B9B1-9AD3BF2523BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B1F3369-574F-4122-AD73-FE402D04E014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1F3369-574F-4122-AD73-FE402D04E014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1F3369-574F-4122-AD73-FE402D04E014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1F3369-574F-4122-AD73-FE402D04E014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A3C40F-3F64-46B4-B9B1-9AD3BF2523BF}.Debug|Any CPU.ActiveCfg = Debug
+		{89A3C40F-3F64-46B4-B9B1-9AD3BF2523BF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52DA9680-A32F-453C-A7FF-91B98776C25C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B1F3369-574F-4122-AD73-FE402D04E014}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InventoryManagementSystem</RootNamespace>
+    <AssemblyName>InventoryManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="delete.cs" />
+    <Compile Include="HomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeScreen.Designer.cs">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insertion.cs" />
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainclass.cs" />
+    <Compile Include="MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI.Designer.cs">
+      <DependentUpon>MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productPricing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productPricing.Designer.cs">
+      <DependentUpon>productPricing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="products.Designer.cs">
+      <DependentUpon>products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="purchaseInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseInvoice.Designer.cs">
+      <DependentUpon>purchaseInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseInvoiceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseInvoiceDetails.Designer.cs">
+      <DependentUpon>purchaseInvoiceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="retrieval.cs" />
+    <Compile Include="saleReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saleReturn.Designer.cs">
+      <DependentUpon>saleReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.Designer.cs">
+      <DependentUpon>sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesReport.Designer.cs">
+      <DependentUpon>salesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sample.Designer.cs">
+      <DependentUpon>sample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sample2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sample2.Designer.cs">
+      <DependentUpon>sample2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="categories.Designer.cs">
+      <DependentUpon>categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock.Designer.cs">
+      <DependentUpon>stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplier.Designer.cs">
+      <DependentUpon>supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update.cs" />
+    <Compile Include="Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewSalesInvoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewSalesInvoices.Designer.cs">
+      <DependentUpon>viewSalesInvoices.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="HomeScreen.resx">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI.resx">
+      <DependentUpon>MDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productPricing.resx">
+      <DependentUpon>productPricing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="products.resx">
+      <DependentUpon>products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="purchaseInvoice.resx">
+      <DependentUpon>purchaseInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseInvoiceDetails.resx">
+      <DependentUpon>purchaseInvoiceDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saleReturn.resx">
+      <DependentUpon>saleReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.resx">
+      <DependentUpon>sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesReport.resx">
+      <DependentUpon>salesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sample.resx">
+      <DependentUpon>sample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sample2.resx">
+      <DependentUpon>sample2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="categories.resx">
+      <DependentUpon>categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock.resx">
+      <DependentUpon>stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplier.resx">
+      <DependentUpon>supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewSalesInvoices.resx">
+      <DependentUpon>viewSalesInvoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagramCheckOut.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_to_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_to_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imsss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user_group_man_man_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stocks_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_performance_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorize_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pricing_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assignment_return_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_bin_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_arrow_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_arrow_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_arrow_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_as_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_as_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckoutLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckoutLogo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckoutLogo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_to_50px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_30px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_property_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_bin_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user_group_man_man_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stocks_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_performance_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_performance_80px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorize_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pricing_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pricing_80px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_performance_80px3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset_6-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assignment_return_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_80px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
