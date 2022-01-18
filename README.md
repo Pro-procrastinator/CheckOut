@@ -31,7 +31,7 @@ After cloning this repo on your local machine, you need to setup a local databas
 ```
 Then you can either install the setup from `CheckOut/CheckOutSetup/Debug/setup.exe`
 
-Or for developement experience, you can build it in Visual Studio by opening `CheckOut/CheckOutSetup/Debug/setup.exe`
+Or for developement experience, you can build it in Visual Studio by opening `CheckOut/InventoryManagementSystem.sln`
 
 ---
 
